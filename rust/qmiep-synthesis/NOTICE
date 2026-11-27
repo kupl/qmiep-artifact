@@ -1,0 +1,19 @@
+src/kak.rs contains code adapted from Qiskit 2.5.1:
+  crates/synthesis/src/two_qubit_decompose/weyl_decomposition.rs
+  crates/synthesis/src/two_qubit_decompose/basis_decomposer.rs
+
+src/linalg.rs and src/recursion.rs adapt the Block-ZXZ/demultiplex formulas from:
+  crates/synthesis/src/qsd.rs
+  crates/synthesis/src/linalg/mod.rs
+src/euler.rs adapts the U3/ZYZ parameter formulas from:
+  crates/synthesis/src/euler_one_qubit_decomposer.rs
+
+(C) Copyright IBM 2025, 2026
+Licensed under the Apache License, Version 2.0; see LICENSE-QISKIT.
+
+Original sources:
+https://github.com/Qiskit/qiskit/blob/2.5.1/crates/synthesis/src/two_qubit_decompose/weyl_decomposition.rs
+https://github.com/Qiskit/qiskit/blob/2.5.1/crates/synthesis/src/two_qubit_decompose/basis_decomposer.rs
+https://github.com/Qiskit/qiskit/blob/2.5.1/crates/synthesis/src/qsd.rs
+https://github.com/Qiskit/qiskit/blob/2.5.1/crates/synthesis/src/linalg/mod.rs
+https://github.com/Qiskit/qiskit/blob/2.5.1/crates/synthesis/src/euler_one_qubit_decomposer.rs

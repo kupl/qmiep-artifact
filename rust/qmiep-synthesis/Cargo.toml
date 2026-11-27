@@ -1,0 +1,19 @@
+[package]
+name = "qmiep-synthesis"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Native analytic and heuristic unitary synthesis modulo permutation and diagonal"
+default-run = "qmiep-synthesis"
+
+[dependencies]
+faer.workspace = true
+nalgebra.workspace = true
+num-complex.workspace = true
+qmiep-solver = { path = "../qmiep-solver" }
+serde.workspace = true
+serde_json.workspace = true
+
+[dev-dependencies]
+rand.workspace = true
+rand_distr.workspace = true
