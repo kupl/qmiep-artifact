@@ -41,7 +41,7 @@ Git, Make, and internet access are available.
 Obtain the repository and then run its default Make target:
 
 ```sh
-git clone https://github.com/kupl/QMIEP.git (TODO change the link)
+git clone https://github.com/kupl/qmiep-artifact
 cd QMIEP
 make
 ```
